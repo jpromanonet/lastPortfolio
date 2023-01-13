@@ -57,6 +57,8 @@ function App() {
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
              Hi! I'm Juan and I'm doing a cool or simple project every single day
+             <br/>
+             <br/>
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
             So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode (as the moment of writing this I'm currently on day 42), so this functions as a personal portfolio of sorts, in the about sections you will be directed to my website and in blog to my shared blog.
@@ -66,8 +68,14 @@ function App() {
           <a href="https://expanding-cards-pi-ivory.vercel.app/" target="_blank" >
             <Grid title="Expanding Cards" btnTitle="Demo" />
           </a>
+          <a href="http://recursos.jpromano.net/" target="_blank" >
+            <Grid title="Free Coding Resources" btnTitle="Demo" />
+          </a>
+          <a href="https://jpromano.net" target="_blank" >
+            <Grid title="Personal Website" btnTitle="Demo" />
+          </a>
         </div>
-        <div className={`${classes.grid} ${classes.littleSpace}`}>  
+        <div className={`${classes.grid} ${classes.bigSpace}`}>  
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
