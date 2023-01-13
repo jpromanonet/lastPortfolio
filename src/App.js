@@ -63,7 +63,7 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <a href="https://jpromano.net" target="_blank" >
+          <a href="https://expanding-cards-pi-ivory.vercel.app/" target="_blank" >
             <Grid title="Expanding Cards" btnTitle="Demo" />
           </a>
         </div>
