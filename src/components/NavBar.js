@@ -15,7 +15,7 @@ const styles = makeStyles({
         padding: '5px',
         cursor: "pointer",
         "&:hover": {
-            color:  "#4f25c8"
+            color:  "#00A86B"
         },
         ['@media (max-width:780px)']: { 
             paddingBottom: "1rem"    }
