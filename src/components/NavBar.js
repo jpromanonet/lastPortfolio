@@ -30,7 +30,10 @@ function NavBar() {
                    <a href="https://jpromano.net" target="_blank">About</a>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                <a href="https://divulgadoresporhobby.com" target="_blank">Blog</a>
+                    <a href="https://divulgadoresporhobby.com" target="_blank">Blog</a>
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                    <a href="https://github.com/jpromanonet" target="_blank">Github</a>
                 </Typography>
             </Toolbar>
     )
