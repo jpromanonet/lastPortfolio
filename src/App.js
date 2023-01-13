@@ -64,7 +64,7 @@ function App() {
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
           <a href="https://jpromano.net" target="_blank" >
-            <Grid title="Expanding Cards" btnTitle="Show me More"/>
+            <Grid title="Expanding Cards" btnTitle="Demo" />
           </a>
         </div>
         <div className={`${classes.grid} ${classes.littleSpace}`}>  
