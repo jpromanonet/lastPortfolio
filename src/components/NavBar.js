@@ -27,10 +27,10 @@ function NavBar() {
     return (
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <Typography variant="h6" className={classes.menuItem}>
-                   About
+                   <a href="https://jpromano.net" target="_blank">About</a>
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Blog
+                <a href="https://divulgadoresporhobby.com" target="_blank">Blog</a>
                 </Typography>
             </Toolbar>
     )
