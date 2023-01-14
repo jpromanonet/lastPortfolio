@@ -75,7 +75,11 @@ function App() {
             <Grid title="Personal Website" btnTitle="Demo" />
           </a>
         </div>
-        <div className={`${classes.grid} ${classes.bigSpace}`}>  
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+          
+        <a href="https://ste-progress.vercel.app" target="_blank" >
+            <Grid title="Progress Steps" btnTitle="Demo" />
+          </a> 
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
