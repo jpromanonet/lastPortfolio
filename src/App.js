@@ -40,7 +40,7 @@ const styles = makeStyles({
     marginTop: "5rem"
   },
   grid:{
-    display: "flex", 
+    display: "inline-block", 
     justifyContent: "center",
     alignItems: "center",
     flexWrap: "wrap", 
@@ -76,9 +76,14 @@ function App() {
           </a>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-          
-        <a href="https://ste-progress.vercel.app" target="_blank" >
-            <Grid title="Progress Steps" btnTitle="Demo" />
+          <a href="https://ste-progress.vercel.app" target="_blank" >
+              <Grid title="Progress Steps" btnTitle="Demo" />
+          </a>
+          <a href="https://ponzitorto.vercel.app/" target="_blank" >
+              <Grid title="Ponzitorto" btnTitle="Demo" />
+          </a>
+          <a href="https://rotation-nav.vercel.app/" target="_blank" >
+              <Grid title="Rotation Navbar" btnTitle="Demo" />
           </a> 
         </div>
         <div className={classes.bigSpace}>
