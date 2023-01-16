@@ -86,6 +86,11 @@ function App() {
               <Grid title="Rotation Navbar" btnTitle="Demo" />
           </a> 
         </div>
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+          <a href="https://hidden-search-widget-henna.vercel.app/" target="_blank" >
+              <Grid title="Hidden Search Widget" btnTitle="Demo" />
+          </a>
+        </div>
         <div className={classes.bigSpace}>
           <Footer/>
         </div>
