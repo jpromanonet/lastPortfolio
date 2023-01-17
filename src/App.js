@@ -66,7 +66,7 @@ function App() {
              <br/>
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
-            So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode, so this functions as a personal portfolio of sorts, in the about sections you will be directed to my website and in blog to my shared blog.
+            So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode, so this functions as a personal portfolio of sorts, in the about section you will be directed to my website, in blog to my shared blog and in the github section to my github profile.
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
