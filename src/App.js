@@ -1,8 +1,12 @@
 import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
-import {Typography} from '@material-ui/core'; 
+import Card from "@material-ui/core/Card";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import CardActions from "@material-ui/core/CardActions";
 import NavBar from './components/NavBar'
 import Grid from './components/Grid'
 import Footer from './components/Footer'
+import { CardMedia, CardHeader } from "@material-ui/core";
 import './App.css';
 
 const theme = createMuiTheme({
@@ -40,7 +44,7 @@ const styles = makeStyles({
     marginTop: "5rem"
   },
   grid:{
-    display: "inline-block", 
+    display: "flex", 
     justifyContent: "center",
     alignItems: "center",
     flexWrap: "wrap", 
@@ -65,12 +69,24 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <a href="https://expanding-cards-pi-ivory.vercel.app/" target="_blank" >
-            <Grid title="Expanding Cards" btnTitle="Demo" />
-          </a>
-          <a href="http://recursos.jpromano.net/" target="_blank" >
-            <Grid title="Free Coding Resources" btnTitle="Demo" />
-          </a>
+        <Card>
+          <CardHeader
+            title="Free Coding Resources"
+          />
+          <CardMedia
+            style={{ paddingTop: "50%" }}
+            image="./media/background.png"
+            title="Background image"
+          />
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="http://recursos.jpromano.net/" target="_blank" >
+              <Button>Demo</Button>
+            </a>
+            <Button>Github</Button>
+          </CardActions>
+        </Card>
+          
+          
           <a href="https://jpromano.net" target="_blank" >
             <Grid title="Personal Website" btnTitle="Demo" />
           </a>
