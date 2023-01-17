@@ -74,13 +74,12 @@ function App() {
             title="Free Coding Resources"
           />
           <CardMedia
-            style={{ paddingTop: "50%" }}
-            image="./media/background.png"
-            title="Background image"
-          />
+          >
+            <img src={require('./assets/recursos.png')} width="100%"/>
+          </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="http://recursos.jpromano.net/" target="_blank" >
-              <Button>Demo</Button>
+              <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/freeCodingResources" target="_blank">
               <Button>Github</Button>
@@ -98,8 +97,8 @@ function App() {
             title="Background image"
           />
           <CardActions style={{justifyContent: "center"}}>
-            <a href="http://recursos.jpromano.net/" target="_blank" >
-              <Button>Demo</Button>
+            <a href="http://jpromano.net/" target="_blank" >
+              <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/webSite2023" target="_blank">
               <Button>Github</Button>
