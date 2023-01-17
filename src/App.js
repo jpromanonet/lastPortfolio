@@ -66,7 +66,7 @@ function App() {
              <br/>
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
-            So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode (as the moment of writing this I'm currently on day 42), so this functions as a personal portfolio of sorts, in the about sections you will be directed to my website and in blog to my shared blog.
+            So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode, so this functions as a personal portfolio of sorts, in the about sections you will be directed to my website and in blog to my shared blog.
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
@@ -169,7 +169,7 @@ function App() {
           />
           <CardMedia
           >
-            <img src={require('./assets/rotation_nav.png')} width="100%" height="200px"/>
+            <img src={require('./assets/hidden_search_widget.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://hidden-search-widget-henna.vercel.app/" target="_blank" >
