@@ -151,13 +151,13 @@ function App() {
           />
           <CardMedia
           >
-            <img src={require('./assets/ponzitorto.png')} width="100%" height="200px"/>
+            <img src={require('./assets/rotation_nav.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://rotation-nav.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/ponzitorto_piramid_edition" target="_blank">
+            <a href="https://github.com/jpromanonet/rotationNav" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
