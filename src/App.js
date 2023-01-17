@@ -105,19 +105,45 @@ function App() {
             </a>
           </CardActions>
         </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Progress Steps"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/steps.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://ste-progress.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/steProgress" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
         
-          
-          <a href="https://jpromano.net" target="_blank" >
-            <Grid title="Personal Website" btnTitle="Demo" />
-          </a>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <a href="https://ste-progress.vercel.app" target="_blank" >
-              <Grid title="Progress Steps" btnTitle="Demo" />
-          </a>
-          <a href="https://ponzitorto.vercel.app/" target="_blank" >
-              <Grid title="Ponzitorto" btnTitle="Demo" />
-          </a>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Ponzitorto"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/ponzitorto.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://ste-progress.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/steProgress" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
           <a href="https://rotation-nav.vercel.app/" target="_blank" >
               <Grid title="Rotation Navbar" btnTitle="Demo" />
           </a> 
