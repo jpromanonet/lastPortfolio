@@ -69,7 +69,7 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-        <Card>
+        <Card style={{margin: "20px", width: "15%"}}>
           <CardHeader
             title="Free Coding Resources"
           />
@@ -82,10 +82,31 @@ function App() {
             <a href="http://recursos.jpromano.net/" target="_blank" >
               <Button>Demo</Button>
             </a>
-            <Button>Github</Button>
+            <a href="https://github.com/jpromanonet/freeCodingResources" target="_blank">
+              <Button>Github</Button>
+            </a>
           </CardActions>
         </Card>
-          
+
+        <Card style={{margin: "20px", width: "15%"}}>
+          <CardHeader
+            title="Personal Website"
+          />
+          <CardMedia
+            style={{ paddingTop: "50%" }}
+            image="./media/background.png"
+            title="Background image"
+          />
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="http://recursos.jpromano.net/" target="_blank" >
+              <Button>Demo</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/webSite2023" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+        
           
           <a href="https://jpromano.net" target="_blank" >
             <Grid title="Personal Website" btnTitle="Demo" />
