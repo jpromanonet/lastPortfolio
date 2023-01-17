@@ -4,11 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
 import NavBar from './components/NavBar'
-import Grid from './components/Grid'
 import Footer from './components/Footer'
 import { CardMedia, CardHeader } from "@material-ui/core";
 import './App.css';
-import { Height } from '@material-ui/icons';
 
 const theme = createMuiTheme({
   palette: {
@@ -42,7 +40,7 @@ const styles = makeStyles({
     textAlign: "center"
   },
   bigSpace: {
-    marginTop: "5rem"
+    marginTop: "2rem"
   },
   grid:{
     display: "flex", 
@@ -52,8 +50,7 @@ const styles = makeStyles({
   },
 })
 
-function App() {
-  const classes = styles(); 
+function App() {  const classes = styles(); 
 
   return (
     <div className="App">
@@ -70,6 +67,7 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
+
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Free Coding Resources"
@@ -176,6 +174,27 @@ function App() {
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/hiddenSearchWidget" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Blurry Loading"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/blurry_loading.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://blurry-loading-eosin.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/blurryLoading" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
