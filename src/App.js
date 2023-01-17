@@ -163,15 +163,24 @@ function App() {
           </CardActions>
         </Card>
 
-          <a href="https://rotation-nav.vercel.app/" target="_blank" >
-              <Grid title="Rotation Navbar" btnTitle="Demo" />
-          </a> 
-        </div>
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Hidden Widget Search"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/rotation_nav.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://hidden-search-widget-henna.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/hiddenSearchWidget" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
 
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-          <a href="https://hidden-search-widget-henna.vercel.app/" target="_blank" >
-              <Grid title="Hidden Search Widget" btnTitle="Demo" />
-          </a>
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
