@@ -8,6 +8,7 @@ import Grid from './components/Grid'
 import Footer from './components/Footer'
 import { CardMedia, CardHeader } from "@material-ui/core";
 import './App.css';
+import { Height } from '@material-ui/icons';
 
 const theme = createMuiTheme({
   palette: {
@@ -75,7 +76,7 @@ function App() {
           />
           <CardMedia
           >
-            <img src={require('./assets/recursos.png')} width="100%"/>
+            <img src={require('./assets/recursos.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="http://recursos.jpromano.net/" target="_blank" >
@@ -92,12 +93,11 @@ function App() {
             title="Personal Website"
           />
           <CardMedia
-            style={{ paddingTop: "50%" }}
-            image="./media/background.png"
-            title="Background image"
-          />
+          >
+            <img src={require('./assets/website.png')} width="100%" height="200px"/>
+          </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="http://jpromano.net/" target="_blank" >
+            <a href="https://jpromano.net/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/webSite2023" target="_blank">
