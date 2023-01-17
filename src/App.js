@@ -70,7 +70,7 @@ function App() {
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
-        <Card style={{margin: "20px", width: "15%"}}>
+        <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Free Coding Resources"
           />
@@ -88,7 +88,7 @@ function App() {
           </CardActions>
         </Card>
 
-        <Card style={{margin: "20px", width: "15%"}}>
+        <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Personal Website"
           />
