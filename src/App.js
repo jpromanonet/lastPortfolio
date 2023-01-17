@@ -136,18 +136,38 @@ function App() {
             <img src={require('./assets/ponzitorto.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://ste-progress.vercel.app/" target="_blank" >
+            <a href="https://ponzitorto.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/steProgress" target="_blank">
+            <a href="https://github.com/jpromanonet/ponzitorto_piramid_edition" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
         </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Rotation Navbar"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/ponzitorto.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://rotation-nav.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/ponzitorto_piramid_edition" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
           <a href="https://rotation-nav.vercel.app/" target="_blank" >
               <Grid title="Rotation Navbar" btnTitle="Demo" />
           </a> 
         </div>
+
         <div className={`${classes.grid} ${classes.bigSpace}`}>
           <a href="https://hidden-search-widget-henna.vercel.app/" target="_blank" >
               <Grid title="Hidden Search Widget" btnTitle="Demo" />
