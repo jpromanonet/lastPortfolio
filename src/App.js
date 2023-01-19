@@ -218,6 +218,24 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Split Landing Page"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/split_landing.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://split-landing-page-kappa.vercel.app" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/splitLandingPage" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
