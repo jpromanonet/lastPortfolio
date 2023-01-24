@@ -304,7 +304,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/form_wave.png')} width="100%" height="200px"/>
+            <img src={require('./assets/eventKey.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://event-key-codes-fawn.vercel.app/" target="_blank" >
