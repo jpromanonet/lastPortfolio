@@ -237,7 +237,8 @@ function App() {  const classes = styles();
         </Card>
 
         </div>
-         <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
@@ -288,6 +289,28 @@ function App() {  const classes = styles();
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/dadJokes" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Event Key Binder"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/form_wave.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://event-key-codes-fawn.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/eventKeyCodes" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
