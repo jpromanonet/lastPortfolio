@@ -365,7 +365,7 @@ function App() {  const classes = styles();
             <img src={require('./assets/eventKey.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://event-key-codes-fawn.vercel.app/" target="_blank" >
+            <a href="https://animated-navigation-henna.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/eventKeyCodes" target="_blank">
