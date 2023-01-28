@@ -362,7 +362,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/eventKey.png')} width="100%" height="200px"/>
+            <img src={require('./assets/animated.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://animated-navigation-henna.vercel.app/" target="_blank" >
