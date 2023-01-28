@@ -368,7 +368,7 @@ function App() {  const classes = styles();
             <a href="https://animated-navigation-henna.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/eventKeyCodes" target="_blank">
+            <a href="https://github.com/jpromanonet/animatedNavigation" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
