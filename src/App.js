@@ -358,7 +358,7 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Event Key Binder"
+            title="Animated Navigation"
           />
           <CardMedia
           >
