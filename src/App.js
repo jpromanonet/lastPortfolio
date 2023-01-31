@@ -398,13 +398,13 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/social_media_fans.png')} width="100%" height="200px"/>
+            <img src={require('./assets/water_reminder.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://increment-counter-sandy.vercel.app/" target="_blank" >
+            <a href="https://drink-water-reminder.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/incrementCounter" target="_blank">
+            <a href="https://github.com/jpromanonet/drinkWaterReminder" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
