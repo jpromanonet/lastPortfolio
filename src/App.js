@@ -432,7 +432,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/expanding_cards.png')} width="100%" height="200px"/>
+            <img src={require('./assets/movieapp.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://expanding-cards-pi-ivory.vercel.app/" target="_blank" >
