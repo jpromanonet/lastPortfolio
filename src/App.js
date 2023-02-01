@@ -412,7 +412,7 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title=""
+            title="Expanding Cards"
           />
           <CardMedia
           >
