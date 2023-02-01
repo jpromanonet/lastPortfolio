@@ -409,6 +409,24 @@ function App() {  const classes = styles();
             </a>
           </CardActions>
         </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title=""
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/water_reminder.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://drink-water-reminder.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/drinkWaterReminder" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
         
         </div>
 
