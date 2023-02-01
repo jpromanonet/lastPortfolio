@@ -122,9 +122,6 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
         
-        </div>
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Ponzitorto"
@@ -142,6 +139,9 @@ function App() {  const classes = styles();
             </a>
           </CardActions>
         </Card>
+
+        </div>
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
@@ -179,9 +179,6 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
-        </div>
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Blurry Loading"
@@ -218,6 +215,9 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
+        </div>
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Split Landing Page"
@@ -236,10 +236,6 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
-        </div>
-
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Form Wave"
@@ -257,7 +253,7 @@ function App() {  const classes = styles();
             </a>
           </CardActions>
         </Card>
-
+        
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Sound Board"
@@ -352,9 +348,7 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
-        </div>
 
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
@@ -372,7 +366,11 @@ function App() {  const classes = styles();
               <Button>Github</Button>
             </a>
           </CardActions>
-        </Card>
+        </Card> 
+        
+        </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
@@ -428,6 +426,24 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
         
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Movie App"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/expanding_cards.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://expanding-cards-pi-ivory.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/expandingCards" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
