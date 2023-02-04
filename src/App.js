@@ -472,14 +472,14 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Background Slider"
+            title="Dark theme clock"
           />
           <CardMedia
           >
             <img src={require('./assets/bgslider.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://backgroundslider.vercel.app/" target="_blank" >
+            <a href="https://dark-mode-clock.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/backgroundSlider" target="_blank">
