@@ -482,7 +482,7 @@ function App() {  const classes = styles();
             <a href="https://dark-mode-clock.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/backgroundSlider" target="_blank">
+            <a href="https://github.com/jpromanonet/darkModeClock" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
