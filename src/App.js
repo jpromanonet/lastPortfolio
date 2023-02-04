@@ -466,10 +466,6 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
-        </div>
-
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
             title="Dark theme clock"
