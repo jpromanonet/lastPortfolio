@@ -508,7 +508,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/dragdrop.png')} width="100%" height="200px"/>
+            <img src={require('./assets/buttonripple.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://button-ripple-effect-one.vercel.app/" target="_blank" >
