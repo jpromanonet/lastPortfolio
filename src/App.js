@@ -484,6 +484,24 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Drag & Drop"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/dark_clock.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://dark-mode-clock.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/darkModeClock" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
