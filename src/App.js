@@ -493,7 +493,7 @@ function App() {  const classes = styles();
             <img src={require('./assets/dark_clock.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://dark-mode-clock.vercel.app/" target="_blank" >
+            <a href="https://drag-drop-woad.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/darkModeClock" target="_blank">
