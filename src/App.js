@@ -490,7 +490,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/dark_clock.png')} width="100%" height="200px"/>
+            <img src={require('./assets/dragdrop.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://drag-drop-woad.vercel.app/" target="_blank" >
