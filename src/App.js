@@ -551,10 +551,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/kinetic_loader.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://simple-drawing-app.vercel.app/" target="_blank" >
+            <a href="https://kinectic-loader.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/simple_drawing_app" target="_blank">
+            <a href="https://github.com/jpromanonet/kinecticLoader" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
