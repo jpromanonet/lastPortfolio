@@ -548,7 +548,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/drawing_app.png')} width="100%" height="200px"/>
+            <img src={require('./assets/kinetic_loader.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://simple-drawing-app.vercel.app/" target="_blank" >
