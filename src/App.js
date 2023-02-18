@@ -577,7 +577,6 @@ function App() {  const classes = styles();
             </a>
           </CardActions>
         </Card>
-
         
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
@@ -585,7 +584,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/place_holder.png')} width="100%" height="200px"/>
+            <img src={require('./assets/sticky_navbar.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://sticky-navbar-seven.vercel.app/" target="_blank" >
