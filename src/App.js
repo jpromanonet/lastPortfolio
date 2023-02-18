@@ -588,10 +588,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/place_holder.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://content-place-holder.vercel.app/" target="_blank" >
+            <a href="https://sticky-navbar-seven.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/contentPlaceHolder" target="_blank">
+            <a href="https://github.com/jpromanonet/stickyNavbar" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
