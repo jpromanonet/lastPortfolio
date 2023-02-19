@@ -600,7 +600,24 @@ function App() {  const classes = styles();
 
         <div className={`${classes.grid} ${classes.bigSpace}`}>
 
-          
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Sticky Navbar"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/vertical_slider.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://sticky-navbar-seven.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/stickyNavbar" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
