@@ -629,10 +629,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/vertical_slider.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://vertical-slider-woad.vercel.app" target="_blank" >
+            <a href="https://toast-notification-teal.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/verticalSlider" target="_blank">
+            <a href="https://github.com/jpromanonet/toastNotification" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
