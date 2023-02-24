@@ -626,7 +626,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/vertical_slider.png')} width="100%" height="200px"/>
+            <img src={require('./assets/toast_notification.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://toast-notification-teal.vercel.app/" target="_blank" >
