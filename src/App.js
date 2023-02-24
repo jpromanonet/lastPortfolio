@@ -656,6 +656,24 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Double Click Heart"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/github_profiles.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://double-click-heart-iota.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/doubleClickHeart" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
