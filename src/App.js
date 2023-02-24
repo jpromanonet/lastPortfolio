@@ -650,7 +650,7 @@ function App() {  const classes = styles();
             <a href="https://toast-notification-teal.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/toastNotification" target="_blank">
+            <a href="https://github.com/jpromanonet/githubProfiles" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
