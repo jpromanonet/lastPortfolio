@@ -644,7 +644,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/toast_notification.png')} width="100%" height="200px"/>
+            <img src={require('./assets/github_profiles.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://githubprofilesearch-delta.vercel.app/" target="_blank" >
