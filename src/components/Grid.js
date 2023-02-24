@@ -5,13 +5,21 @@ import CustomBtn from './CustomBtn'
 
 const styles = makeStyles({
     wrapper: {
-       display: "flex",
-       flexDirection: "column", 
-       alignItems: "center", 
-       padding: "0 5rem 0 5rem"
-    }, 
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+        gridGap: "1rem",
+        padding: "0 5rem 0 5rem"
+    },
     item: {
-       paddingTop: "1rem"
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100%",
+        backgroundColor: "white",
+        boxShadow: "0px 3px 6px rgba(0,0,0,0.16)",
+        borderRadius: "10px",
+        padding: "1rem"
     }
 })
 
@@ -20,10 +28,10 @@ function Grid(props) {
     const classes = styles(); 
     return (
         <div className={classes.wrapper}>
-            <div className={classes.item}>{icon}</div>
-            <Typography className={classes.item} variant="h5">{title}</Typography>
             <div className={classes.item}>
-                <CustomBtn  txt={btnTitle}/>
+                <div>{icon}</div>
+                <Typography variant="h5">{title}</Typography>
+                <CustomBtn txt={btnTitle}/>
             </div>
         </div>
     )

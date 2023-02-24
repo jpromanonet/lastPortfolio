@@ -43,12 +43,14 @@ const styles = makeStyles({
     marginTop: "2rem"
   },
   grid:{
-    display: "flex", 
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
     justifyContent: "center",
     alignItems: "center",
-    flexWrap: "wrap", 
+    gap: "1rem", 
   },
 })
+
 
 function App() {  const classes = styles(); 
 
