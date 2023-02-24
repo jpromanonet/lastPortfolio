@@ -662,7 +662,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/github_profiles.png')} width="100%" height="200px"/>
+            <img src={require('./assets/double_click_heart.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://double-click-heart-iota.vercel.app/" target="_blank" >
