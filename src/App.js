@@ -676,6 +676,82 @@ function App() {  const classes = styles();
 
         </div>
 
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Auto Text Effect"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/auto_text.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://auto-text-effect-mu.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/autoTextEffect" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Password Generator"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/password_generator.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://password-generator-nine-vert.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/passwordGenerator" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Good Cheap Fast"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/good_cheap_fast.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://good-cheap-fast-amber.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/goodCheapFast" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Notes App"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/notes_app.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://double-click-heart-iota.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/doubleClickHeart" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
         <div className={classes.bigSpace}>
           <Footer/>
         </div>
