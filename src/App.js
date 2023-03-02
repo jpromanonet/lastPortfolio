@@ -741,10 +741,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/notes_app.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://double-click-heart-iota.vercel.app/" target="_blank" >
+            <a href="https://simple-notes-app-bice.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/doubleClickHeart" target="_blank">
+            <a href="https://github.com/jpromanonet/simpleNotesApp" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
