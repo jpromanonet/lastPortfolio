@@ -792,17 +792,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Good Cheap Fast"
+            title="Hover Board"
           />
           <CardMedia
           >
-            <img src={require('./assets/good_cheap_fast.png')} width="100%" height="200px"/>
+            <img src={require('./assets/hover_board.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://good-cheap-fast-amber.vercel.app/" target="_blank" >
+            <a href="https://hover-board-drab.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/goodCheapFast" target="_blank">
+            <a href="https://github.com/jpromanonet/hoverBoard" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
