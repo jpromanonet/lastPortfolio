@@ -774,17 +774,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Password Generator"
+            title="Image Carrousel"
           />
           <CardMedia
           >
-            <img src={require('./assets/password_generator.png')} width="100%" height="200px"/>
+            <img src={require('./assets/image_carrousel.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://password-generator-nine-vert.vercel.app/" target="_blank" >
+            <a href="https://image-carrousel.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/passwordGenerator" target="_blank">
+            <a href="https://github.com/jpromanonet/imageCarrousel" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
