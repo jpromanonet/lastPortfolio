@@ -888,11 +888,11 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Pokedex"
+            title="Live User Filter"
           />
           <CardMedia
           >
-            <img src={require('./assets/pokedex.png')} width="100%" height="200px"/>
+            <img src={require('./assets/live_filter.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://pokedex-alpha-amber.vercel.app/" target="_blank" >
