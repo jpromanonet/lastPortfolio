@@ -946,11 +946,11 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Password Background"
+            title="Custom Range Slider"
           />
           <CardMedia
           >
-            <img src={require('./assets/password_bg.png')} width="100%" height="200px"/>
+            <img src={require('./assets/range_slider.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://password-strenght-background.vercel.app/" target="_blank" >
