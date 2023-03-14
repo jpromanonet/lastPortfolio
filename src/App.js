@@ -971,10 +971,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/netflix_mobile.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://live-user-filter-henna.vercel.app/" target="_blank" >
+            <a href="https://netflix-mobile-navigation-liart.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/liveUserFilter" target="_blank">
+            <a href="https://github.com/jpromanonet/netflixMobileNavigation" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
