@@ -1022,17 +1022,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Custom Range Slider"
+            title="Random Image Feed"
           />
           <CardMedia
           >
-            <img src={require('./assets/range_slider.png')} width="100%" height="200px"/>
+            <img src={require('./assets/random_images.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://custom-range-slider-alpha.vercel.app/" target="_blank" >
+            <a href="https://random-image-generator-three.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/customRangeSlider" target="_blank">
+            <a href="https://github.com/jpromanonet/randomImageGenerator" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
