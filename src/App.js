@@ -938,7 +938,7 @@ function App() {  const classes = styles();
             <a href="https://feedback-ui-design-one.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/cubesBackground" target="_blank">
+            <a href="https://github.com/jpromanonet/feedbackUIDesign" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
