@@ -42,12 +42,14 @@ const styles = makeStyles({
   bigSpace: {
     marginTop: "2rem"
   },
-  grid:{
+  grid: {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
     justifyContent: "center",
     alignItems: "center",
-    gap: "1rem", 
+    justifyItems: "center",
+    alignItems: "center",
+    gap: "1rem",
   },
 })
 
@@ -68,7 +70,7 @@ function App() {  const classes = styles();
             So, as I never get to finish up my portfolio section in my website, I decided to make projects everyday, like #100DaysOfCode, so this functions as a personal portfolio of sorts, in the about section you will be directed to my website, in blog to my shared blog and in the github section to my github profile.
           </Typography>
         </div>
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
+        <div className={`${classes.grid} ${classes.bigSpace}`} style={{alignItems:"center"}}>
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
