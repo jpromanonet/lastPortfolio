@@ -953,7 +953,7 @@ function App() {  const classes = styles();
             <img src={require('./assets/range_slider.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://password-strenght-background.vercel.app/" target="_blank" >
+            <a href="https://custom-range-slider-alpha.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/passwordStrenghtBackground" target="_blank">
