@@ -968,7 +968,7 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/live_filter.png')} width="100%" height="200px"/>
+            <img src={require('./assets/netflix_mobile.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://live-user-filter-henna.vercel.app/" target="_blank" >
