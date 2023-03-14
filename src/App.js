@@ -1050,7 +1050,7 @@ function App() {  const classes = styles();
             <a href="https://another-to-do-list.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/netflixMobileNavigation" target="_blank">
+            <a href="https://github.com/jpromanonet/anotherToDoList" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
