@@ -906,6 +906,82 @@ function App() {  const classes = styles();
 
         </div>
 
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Verify Account UI"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/tab_nav.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://mobile-tab-navigation-eight.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/mobileTabNavigation" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Cubes Background"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/cubes_bg.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://cubes-background.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/cubesBackground" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Password Background"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/password_bg.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://password-strenght-background.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/passwordStrenghtBackground" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Live User Filter"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/live_filter.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://live-user-filter-henna.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/liveUserFilter" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
         <div className={classes.bigSpace}>
           <Footer/>
         </div>
