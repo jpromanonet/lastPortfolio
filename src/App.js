@@ -874,13 +874,13 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/hover_board.png')} width="100%" height="200px"/>
+            <img src={require('./assets/password_bg.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://hover-board-drab.vercel.app/" target="_blank" >
+            <a href="https://password-strenght-background.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/hoverBoard" target="_blank">
+            <a href="https://github.com/jpromanonet/passwordStrenghtBackground" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
