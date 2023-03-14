@@ -1058,6 +1058,28 @@ function App() {  const classes = styles();
 
         </div>
 
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Insect Catch Game"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/catch_insect.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://insect-catch-game-zeta.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/insectCatchGame" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
         <div className={classes.bigSpace}>
           <Footer/>
         </div>
