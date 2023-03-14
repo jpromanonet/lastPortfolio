@@ -852,11 +852,11 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Image Carrousel"
+            title="Cubes Background"
           />
           <CardMedia
           >
-            <img src={require('./assets/image_carrousel.png')} width="100%" height="200px"/>
+            <img src={require('./assets/cubes_bg.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
             <a href="https://image-carrousel.vercel.app/" target="_blank" >
