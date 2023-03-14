@@ -982,6 +982,82 @@ function App() {  const classes = styles();
 
         </div>
 
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Quiz App"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/verify_ui.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://verify-account-ui-psi.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/verifyAccountUI" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Feedback UI Design"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/feedback.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://feedback-ui-design-one.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/feedbackUIDesign" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Custom Range Slider"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/range_slider.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://custom-range-slider-alpha.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/customRangeSlider" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Netflix Mobile Navbar"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/netflix_mobile.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://netflix-mobile-navigation-liart.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/netflixMobileNavigation" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
         <div className={classes.bigSpace}>
           <Footer/>
         </div>
