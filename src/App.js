@@ -810,6 +810,24 @@ function App() {  const classes = styles();
           </CardActions>
         </Card>
 
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Pokedex"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/pokedex.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://pokedex-alpha-amber.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/pokedex" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
