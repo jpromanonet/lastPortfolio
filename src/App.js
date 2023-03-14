@@ -1044,10 +1044,10 @@ function App() {  const classes = styles();
           />
           <CardMedia
           >
-            <img src={require('./assets/netflix_mobile.png')} width="100%" height="200px"/>
+            <img src={require('./assets/to_do.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://netflix-mobile-navigation-liart.vercel.app/" target="_blank" >
+            <a href="https://another-to-do-list.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/netflixMobileNavigation" target="_blank">
