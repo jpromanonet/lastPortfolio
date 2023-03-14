@@ -993,7 +993,7 @@ function App() {  const classes = styles();
             <img src={require('./assets/quiz_app.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://verify-account-ui-psi.vercel.app/" target="_blank" >
+            <a href="https://quiz-app-rosy-one.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/verifyAccountUI" target="_blank">
