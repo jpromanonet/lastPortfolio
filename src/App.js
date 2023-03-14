@@ -859,10 +859,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/cubes_bg.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://image-carrousel.vercel.app/" target="_blank" >
+            <a href="https://cubes-background.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/imageCarrousel" target="_blank">
+            <a href="https://github.com/jpromanonet/cubesBackground" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
