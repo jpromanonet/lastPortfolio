@@ -996,7 +996,7 @@ function App() {  const classes = styles();
             <a href="https://quiz-app-rosy-one.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/verifyAccountUI" target="_blank">
+            <a href="https://github.com/jpromanonet/quizApp" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
