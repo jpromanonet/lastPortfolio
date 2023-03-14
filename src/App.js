@@ -964,7 +964,7 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Live User Filter"
+            title="Netflix Mobile Navbar"
           />
           <CardMedia
           >
