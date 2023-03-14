@@ -1004,14 +1004,14 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Feedback UI Design"
+            title="Testimonial Box"
           />
           <CardMedia
           >
-            <img src={require('./assets/feedback.png')} width="100%" height="200px"/>
+            <img src={require('./assets/testimonial.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://feedback-ui-design-one.vercel.app/" target="_blank" >
+            <a href="https://testimonial-box-switcher-psi.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/feedbackUIDesign" target="_blank">
