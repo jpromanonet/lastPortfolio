@@ -841,10 +841,10 @@ function App() {  const classes = styles();
             <img src={require('./assets/tab_nav.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://animated-countdown-delta.vercel.app/" target="_blank" >
+            <a href="https://mobile-tab-navigation-eight.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/animatedCountdown" target="_blank">
+            <a href="https://github.com/jpromanonet/mobileTabNavigation" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
