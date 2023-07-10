@@ -145,6 +145,159 @@ function App() {  const classes = styles();
         </Card>
 
         </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Insect Catch Game"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/catch_insect.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://insect-catch-game-zeta.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/insectCatchGame" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Space Invaders"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/space_invaders.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://space-invaders-js-iota.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/spaceInvadersJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Battle Ships"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/batalla_naval.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://batalla-naval-js.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/batallaNavalJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Tetris JS"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/tetris.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://tetris-js-ten.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/tetrisJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Truco"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/truco.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://simple-truco-js.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/simpleTrucoJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Space Invaders"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/space_invaders.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://space-invaders-js-iota.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/spaceInvadersJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Battle Ships"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/batalla_naval.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://batalla-naval-js.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/batallaNavalJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Tetris JS"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/tetris.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://tetris-js-ten.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/tetrisJS" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
         <div className={`${classes.grid} ${classes.bigSpace}`}>
 
         <Card style={{margin: "20px", width: "300px"}}>
@@ -1051,82 +1204,6 @@ function App() {  const classes = styles();
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/anotherToDoList" target="_blank">
-              <Button>Github</Button>
-            </a>
-          </CardActions>
-        </Card>
-
-        </div>
-
-        <div className={`${classes.grid} ${classes.bigSpace}`}>
-
-        <Card style={{margin: "20px", width: "300px"}}>
-          <CardHeader
-            title="Insect Catch Game"
-          />
-          <CardMedia
-          >
-            <img src={require('./assets/catch_insect.png')} width="100%" height="200px"/>
-          </CardMedia>
-          <CardActions style={{justifyContent: "center"}}>
-            <a href="https://insect-catch-game-zeta.vercel.app/" target="_blank" >
-              <Button>Live</Button>
-            </a>
-            <a href="https://github.com/jpromanonet/insectCatchGame" target="_blank">
-              <Button>Github</Button>
-            </a>
-          </CardActions>
-        </Card>
-
-        <Card style={{margin: "20px", width: "300px"}}>
-          <CardHeader
-            title="Space Invaders"
-          />
-          <CardMedia
-          >
-            <img src={require('./assets/space_invaders.png')} width="100%" height="200px"/>
-          </CardMedia>
-          <CardActions style={{justifyContent: "center"}}>
-            <a href="https://space-invaders-js-iota.vercel.app/" target="_blank" >
-              <Button>Live</Button>
-            </a>
-            <a href="https://github.com/jpromanonet/spaceInvadersJS" target="_blank">
-              <Button>Github</Button>
-            </a>
-          </CardActions>
-        </Card>
-
-        <Card style={{margin: "20px", width: "300px"}}>
-          <CardHeader
-            title="Battle Ships"
-          />
-          <CardMedia
-          >
-            <img src={require('./assets/batalla_naval.png')} width="100%" height="200px"/>
-          </CardMedia>
-          <CardActions style={{justifyContent: "center"}}>
-            <a href="https://batalla-naval-js.vercel.app/" target="_blank" >
-              <Button>Live</Button>
-            </a>
-            <a href="https://github.com/jpromanonet/batallaNavalJS" target="_blank">
-              <Button>Github</Button>
-            </a>
-          </CardActions>
-        </Card>
-
-        <Card style={{margin: "20px", width: "300px"}}>
-          <CardHeader
-            title="Tetris JS"
-          />
-          <CardMedia
-          >
-            <img src={require('./assets/tetris.png')} width="100%" height="200px"/>
-          </CardMedia>
-          <CardActions style={{justifyContent: "center"}}>
-            <a href="https://tetris-js-ten.vercel.app/" target="_blank" >
-              <Button>Live</Button>
-            </a>
-            <a href="https://github.com/jpromanonet/tetrisJS" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
