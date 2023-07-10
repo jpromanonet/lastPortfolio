@@ -280,17 +280,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Tetris JS"
+            title="Rock, Paper & Scissors"
           />
           <CardMedia
           >
-            <img src={require('./assets/tetris.png')} width="100%" height="200px"/>
+            <img src={require('./assets/rock_paper.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://tetris-js-ten.vercel.app/" target="_blank" >
+            <a href="https://rock-paper-scissors-topaz-seven.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/tetrisJS" target="_blank">
+            <a href="https://github.com/jpromanonet/rockPaperScissors-" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
@@ -1204,6 +1204,28 @@ function App() {  const classes = styles();
               <Button>Live</Button>
             </a>
             <a href="https://github.com/jpromanonet/anotherToDoList" target="_blank">
+              <Button>Github</Button>
+            </a>
+          </CardActions>
+        </Card>
+
+        </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{margin: "20px", width: "300px"}}>
+          <CardHeader
+            title="Memotest"
+          />
+          <CardMedia
+          >
+            <img src={require('./assets/memotest.png')} width="100%" height="200px"/>
+          </CardMedia>
+          <CardActions style={{justifyContent: "center"}}>
+            <a href="https://js-memory-game-flame.vercel.app/" target="_blank" >
+              <Button>Live</Button>
+            </a>
+            <a href="https://github.com/jpromanonet/jsMemoryGame" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
