@@ -244,17 +244,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Space Invaders"
+            title="Snake JS"
           />
           <CardMedia
           >
-            <img src={require('./assets/space_invaders.png')} width="100%" height="200px"/>
+            <img src={require('./assets/snake_js.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://space-invaders-js-iota.vercel.app/" target="_blank" >
+            <a href="https://snake-js-alpha.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/spaceInvadersJS" target="_blank">
+            <a href="https://github.com/jpromanonet/snakeJS" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
@@ -262,17 +262,17 @@ function App() {  const classes = styles();
 
         <Card style={{margin: "20px", width: "300px"}}>
           <CardHeader
-            title="Battle Ships"
+            title="Tap Music"
           />
           <CardMedia
           >
-            <img src={require('./assets/batalla_naval.png')} width="100%" height="200px"/>
+            <img src={require('./assets/tap_music.png')} width="100%" height="200px"/>
           </CardMedia>
           <CardActions style={{justifyContent: "center"}}>
-            <a href="https://batalla-naval-js.vercel.app/" target="_blank" >
+            <a href="https://music-maker-one.vercel.app/" target="_blank" >
               <Button>Live</Button>
             </a>
-            <a href="https://github.com/jpromanonet/batallaNavalJS" target="_blank">
+            <a href="https://github.com/jpromanonet/musicMaker" target="_blank">
               <Button>Github</Button>
             </a>
           </CardActions>
