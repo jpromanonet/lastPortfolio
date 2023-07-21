@@ -254,11 +254,11 @@ function App() {
               />
             </CardMedia>
             <CardActions style={{ justifyContent: "center" }}>
-              <a href="https://ponzitorto.vercel.app/" target="_blank">
+              <a href="https://jpromanonet.github.io/jsIssueTracker/index.html" target="_blank">
                 <Button>Live</Button>
               </a>
               <a
-                href="https://github.com/jpromanonet/ponzitorto_piramid_edition"
+                href="https://github.com/jpromanonet/jsIssueTracker"
                 target="_blank"
               >
                 <Button>Github</Button>
