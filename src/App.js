@@ -245,10 +245,10 @@ function App() {
           </Card>
 
           <Card style={{ margin: "20px", width: "300px" }}>
-            <CardHeader title="Ponzitorto" />
+            <CardHeader title="JS Issue Tracker" />
             <CardMedia>
               <img
-                src={require("./assets/ponzitorto.png")}
+                src={require("./assets/ticketsJs.png")}
                 width="100%"
                 height="200px"
               />
