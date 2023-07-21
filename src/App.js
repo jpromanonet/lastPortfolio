@@ -223,20 +223,20 @@ function App() {
           </Card>
 
           <Card style={{ margin: "20px", width: "300px" }}>
-            <CardHeader title="Progress Steps" />
+            <CardHeader title="Simple Budget App" />
             <CardMedia>
               <img
-                src={require("./assets/steps.png")}
+                src={require("./assets/budget.png")}
                 width="100%"
                 height="200px"
               />
             </CardMedia>
             <CardActions style={{ justifyContent: "center" }}>
-              <a href="https://ste-progress.vercel.app/" target="_blank">
+              <a href="https://jpromanonet.github.io/budgetAppJs/index.html" target="_blank">
                 <Button>Live</Button>
               </a>
               <a
-                href="https://github.com/jpromanonet/steProgress"
+                href="https://github.com/jpromanonet/budgetAppJs"
                 target="_blank"
               >
                 <Button>Github</Button>
