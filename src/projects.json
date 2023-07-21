@@ -419,5 +419,29 @@
     "imageSrc": "./assets/stats_card_component.png",
     "liveUrl": "https://stats-preview-card-component-ashy.vercel.app/",
     "githubUrl": "https://github.com/jpromanonet/stats_preview_card_component"
+  },
+  {
+    "title": "Order Summary",
+    "imageSrc": "./assets/order_summary.png",
+    "liveUrl": "https://order-summary-repository.vercel.app/",
+    "githubUrl": "https://github.com/jpromanonet/order_summary_repository"
+  },
+  {
+    "title": "Trump Quotes",
+    "imageSrc": "./assets/trump_quotes.png",
+    "liveUrl": "https://jpromanonet.github.io/trumpRandomQuotes/index.html",
+    "githubUrl": "https://github.com/jpromanonet/trumpRandomQuotes"
+  },
+  {
+    "title": "Drum Kit",
+    "imageSrc": "./assets/keyboard_drum.png",
+    "liveUrl": "https://jpromanonet.github.io/keywordDrumKitJS/",
+    "githubUrl": "https://github.com/jpromanonet/keywordDrumKitJS"
+  },
+  {
+    "title": "JS Calculator",
+    "imageSrc": "./assets/js_calc.png",
+    "liveUrl": "https://jpromanonet.github.io/jsCalcultator/",
+    "githubUrl": "https://github.com/jpromanonet/jsCalcultator"
   }
 ]
