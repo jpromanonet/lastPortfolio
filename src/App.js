@@ -1,83 +1,20 @@
-import {
-  createMuiTheme,
-  ThemeProvider,
-  makeStyles,
-} from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
+import React from "react";
+import { ThemeProvider } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
+import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
+import CardHeader from "@material-ui/core/CardHeader";
+import CardMedia from "@material-ui/core/CardMedia";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { CardMedia, CardHeader } from "@material-ui/core";
 import projectsData from "./projects.json";
+import useStyles from "./styles";
+import theme from "./theme";
 import "./App.css";
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      main: "#00A86B",
-    },
-    secondary: {
-      main: "#c7d8ed",
-    },
-  },
-  typography: {
-    fontFamily: ["Roboto"],
-    h4: {
-      fontWeight: 600,
-      fontSize: 28,
-      lineHeight: "2rem",
-    },
-    h5: {
-      fontWeight: 100,
-      lineHeight: "2rem",
-    },
-  },
-});
-
-const styles = makeStyles({
-  wrapper: {
-    width: "65%",
-    margin: "auto",
-    textAlign: "center",
-  },
-  bigSpace: {
-    marginTop: "2rem",
-  },
-  grid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(4, 1fr)", // Updated to four columns
-    justifyContent: "center", // Center the grid horizontally
-    alignItems: "center",
-    justifyItems: "center",
-    gap: "1rem", // Adjust the gap between cards
-  },
-  // Media query for smaller screens (up to 600px width)
-  "@media (max-width: 600px)": {
-    grid: {
-      gridTemplateColumns: "1fr", // Display cards in a single column
-    },
-  },
-  footerContainer: {
-    display: "flex",
-    justifyContent: "center",
-  },
-  footer: {
-    display: "flex",
-    justifyContent: "center", // Center the icons horizontally
-    alignItems: "center",
-    "& svg": {
-      fontSize: "2rem",
-      margin: "0 10px", // Add some margin between the icons
-      cursor: "pointer",
-      color: theme.palette.primary.main,
-    },
-  },
-});
-
 function App() {
-  const classes = styles();
+  const classes = useStyles();
 
   return (
     <div className="App">
