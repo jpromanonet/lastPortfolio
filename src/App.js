@@ -1605,6 +1605,7 @@ function App() {
         </div>
 
         <div className={`${classes.grid} ${classes.bigSpace}`}>
+
           <Card style={{ margin: "20px", width: "300px" }}>
             <CardHeader title="Memotest" />
             <CardMedia>
@@ -1629,6 +1630,32 @@ function App() {
               </a>
             </CardActions>
           </Card>
+
+          <Card style={{ margin: "20px", width: "300px" }}>
+            <CardHeader title="Stranger Things Wall" />
+            <CardMedia>
+              <img
+                src={require("./assets/strangerthings.png")}
+                width="100%"
+                height="200px"
+              />
+            </CardMedia>
+            <CardActions style={{ justifyContent: "center" }}>
+              <a
+                href="https://stranger-things-wall.vercel.app/"
+                target="_blank"
+              >
+                <Button>Live</Button>
+              </a>
+              <a
+                href="https://github.com/jpromanonet/strangerThingsWall"
+                target="_blank"
+              >
+                <Button>Github</Button>
+              </a>
+            </CardActions>
+          </Card>
+
         </div>
 
         <div className={classes.bigSpace}>
