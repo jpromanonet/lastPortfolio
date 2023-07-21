@@ -179,20 +179,20 @@ function App() {
         >
           <Card style={{ margin: "20px", width: "300px" }}>
             {" "}
-            <CardHeader title="Wikipedia Viewer" />
+            <CardHeader title="CRUD with Local Storage" />
             <CardMedia>
               <img
-                src={require("./assets/wikipedia.png")}
+                src={require("./assets/crudlocalstorage.png")}
                 width="100%"
                 height="200px"
               />
             </CardMedia>
             <CardActions style={{ justifyContent: "center" }}>
-              <a href="https://wikipedia-viewer-ashen.vercel.app/" target="_blank">
+              <a href="https://crud-local-storage-nu.vercel.app/" target="_blank">
                 <Button>Live</Button>
               </a>
               <a
-                href="https://github.com/jpromanonet/Wikipedia_Viewer"
+                href="https://github.com/jpromanonet/crudLocalStorage"
                 target="_blank"
               >
                 <Button>Github</Button>
@@ -1624,6 +1624,108 @@ function App() {
               </a>
               <a
                 href="https://github.com/jpromanonet/jsMemoryGame"
+                target="_blank"
+              >
+                <Button>Github</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          <Card style={{ margin: "20px", width: "300px" }}>
+            <CardHeader title="Stranger Things Wall" />
+            <CardMedia>
+              <img
+                src={require("./assets/strangerthings.png")}
+                width="100%"
+                height="200px"
+              />
+            </CardMedia>
+            <CardActions style={{ justifyContent: "center" }}>
+              <a
+                href="https://stranger-things-wall.vercel.app/"
+                target="_blank"
+              >
+                <Button>Live</Button>
+              </a>
+              <a
+                href="https://github.com/jpromanonet/strangerThingsWall"
+                target="_blank"
+              >
+                <Button>Github</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          <Card style={{ margin: "20px", width: "300px" }}>
+            <CardHeader title="Weight Converter" />
+            <CardMedia>
+              <img
+                src={require("./assets/wconverter.png")}
+                width="100%"
+                height="200px"
+              />
+            </CardMedia>
+            <CardActions style={{ justifyContent: "center" }}>
+              <a
+                href="https://weight-converter-seven.vercel.app/"
+                target="_blank"
+              >
+                <Button>Live</Button>
+              </a>
+              <a
+                href="https://github.com/jpromanonet/weightConverter"
+                target="_blank"
+              >
+                <Button>Github</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+          <Card style={{ margin: "20px", width: "300px" }}>
+            <CardHeader title="Affirmation App" />
+            <CardMedia>
+              <img
+                src={require("./assets/affirmationapp.png")}
+                width="100%"
+                height="200px"
+              />
+            </CardMedia>
+            <CardActions style={{ justifyContent: "center" }}>
+              <a
+                href="https://affirmation-app.vercel.app/"
+                target="_blank"
+              >
+                <Button>Live</Button>
+              </a>
+              <a
+                href="https://github.com/jpromanonet/affirmation_app"
+                target="_blank"
+              >
+                <Button>Github</Button>
+              </a>
+            </CardActions>
+          </Card>
+
+        </div>
+
+        <div className={`${classes.grid} ${classes.bigSpace}`}>
+
+        <Card style={{ margin: "20px", width: "300px" }}>
+            {" "}
+            <CardHeader title="Wikipedia Viewer" />
+            <CardMedia>
+              <img
+                src={require("./assets/wikipedia.png")}
+                width="100%"
+                height="200px"
+              />
+            </CardMedia>
+            <CardActions style={{ justifyContent: "center" }}>
+              <a href="https://wikipedia-viewer-ashen.vercel.app/" target="_blank">
+                <Button>Live</Button>
+              </a>
+              <a
+                href="https://github.com/jpromanonet/Wikipedia_Viewer"
                 target="_blank"
               >
                 <Button>Github</Button>
