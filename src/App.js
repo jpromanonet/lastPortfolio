@@ -1,16 +1,14 @@
 import React from "react";
 import { ThemeProvider } from "@material-ui/core/styles";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import { CardHeader, CardMedia } from "@material-ui/core";
 import projectsData from "./projects.json";
-import useStyles from "./styles";
-import theme from "./theme";
+import { useStyles, theme } from "./styles";
 import "./App.css";
 
 function App() {
@@ -32,10 +30,10 @@ function App() {
             color="primary"
           >
             So, as I never get to finish up my portfolio section in my website,
-            I decided to make projects everyday, like #100DaysOfCode, so this
-            functions as a personal portfolio of sorts, in the about section you
-            will be directed to my website, in blog to my shared blog and in the
-            github section to my github profile.
+            I decided to make projects every day, like #100DaysOfCode, so this
+            functions as a personal portfolio of sorts. In the "About" section, you
+            will be directed to my website, in the "Blog" section to my shared blog, and in the
+            "GitHub" section to my GitHub profile.
           </Typography>
         </div>
         {/* Project Cards */}

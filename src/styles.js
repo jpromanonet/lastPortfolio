@@ -46,21 +46,23 @@ const useStyles = makeStyles({
       gridTemplateColumns: "1fr",
     },
   },
-  footerContainer: {
-    display: "flex",
-    justifyContent: "center",
-  },
   footer: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    gap: "10px", // Add some gap between the icons
     "& svg": {
       fontSize: "2rem",
-      margin: "0 10px",
       cursor: "pointer",
       color: theme.palette.primary.main,
     },
   },
+  // Add this new class for the footer container to be centered
+  footerContainer: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
 
-export default useStyles;
+export { theme, useStyles };
