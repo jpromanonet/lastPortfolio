@@ -210,11 +210,11 @@ function App() {
               />
             </CardMedia>
             <CardActions style={{ justifyContent: "center" }}>
-              <a href="https://jpromano.net/" target="_blank">
+              <a href="https://meditation-time.vercel.app/" target="_blank">
                 <Button>Live</Button>
               </a>
               <a
-                href="https://github.com/jpromanonet/webSite2023"
+                href="https://github.com/jpromanonet/meditationTime"
                 target="_blank"
               >
                 <Button>Github</Button>
