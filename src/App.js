@@ -20,7 +20,7 @@ function App() {
         <NavBar />
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-            Hi! I'm Juan and I'm doing a cool or simple project every single day
+            Hi! I'm Juan and I'm doing a simple project every single day
             <br />
             <br />
           </Typography>

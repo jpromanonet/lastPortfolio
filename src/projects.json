@@ -413,5 +413,11 @@
     "imageSrc": "./assets/wikipedia.png",
     "liveUrl": "https://wikipedia-viewer-ashen.vercel.app/",
     "githubUrl": "https://github.com/jpromanonet/Wikipedia_Viewer"
+  },
+  {
+    "title": "Stats Preview",
+    "imageSrc": "./assets/stats_card_component.png",
+    "liveUrl": "https://stats-preview-card-component-ashy.vercel.app/",
+    "githubUrl": "https://github.com/jpromanonet/stats_preview_card_component"
   }
 ]
