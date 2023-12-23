@@ -1,5 +1,11 @@
 [
   {
+    "title": "Whiteboard Py + Tk",
+    "imageSrc": "./assets/whiteboard_py.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/white_board_py"
+  },
+  {
     "title": "Free Coding Resources",
     "imageSrc": "./assets/recursos.png",
     "liveUrl": "http://recursos.jpromano.net/",

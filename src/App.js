@@ -20,7 +20,7 @@ function App() {
         <NavBar />
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-            Hi! I'm Juan and I'm doing a simple project every single day
+          Hi! I'm Juan and this is my portfolio
             <br />
             <br />
           </Typography>
@@ -29,11 +29,7 @@ function App() {
             className={classes.littleSpace}
             color="primary"
           >
-            So, as I never get to finish up my portfolio section in my website,
-            I decided to make projects every day, like #100DaysOfCode, so this
-            functions as a personal portfolio of sorts. In the "About" section, you
-            will be directed to my website, in the "Blog" section to my shared blog, and in the
-            "GitHub" section to my GitHub profile.
+          👨‍💼 Engineering Manager | 👨‍💻 Full Stack Developer | 👨‍🏫 Teacher | ✍️ Writer
           </Typography>
         </div>
         {/* Project Cards */}
