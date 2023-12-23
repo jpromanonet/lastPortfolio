@@ -1,5 +1,11 @@
 [
   {
+    "title": "Alien Abduction Game",
+    "imageSrc": "./assets/alien_abduction_game.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/alien_abduction_game"
+  },
+  {
     "title": "Whiteboard Py + Tk",
     "imageSrc": "./assets/whiteboard_py.png",
     "liveUrl": "#",
