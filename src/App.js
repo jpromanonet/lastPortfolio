@@ -32,7 +32,7 @@ function App() {
         paper: darkMode ? "#1E1E1E" : "#ffffff",
       },
       text: {
-        primary: darkMode ? "#ffffff" : "#000000",
+        primary: darkMode ? "#ffffff" : theme.palette.primary.main,
       },
     },
   });
