@@ -1,5 +1,17 @@
 [
   {
+    "title": "Network Scanner Tool",
+    "imageSrc": "./assets/network_scanner_tkinter.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/network_scanning_tool_py"
+  },
+  {
+  "title": "Pong with Pygame",
+  "imageSrc": "./assets/pypong.png",
+  "liveUrl": "#",
+  "githubUrl": "https://github.com/jpromanonet/pyPong"
+  },
+  {
     "title": "Alien Abduction Game",
     "imageSrc": "./assets/alien_abduction_game.png",
     "liveUrl": "#",
