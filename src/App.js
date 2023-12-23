@@ -60,7 +60,7 @@ function App() {
             className={classes.littleSpace}
             color="primary"
           >
-            👨‍💼 Ethical Hacker | 👨‍💻 Indie Hacker | 👨‍🏫 Teacher | ✍️ Writer
+            🥷🏽 Ethical Hacker | 👨‍💻 Indie Hacker | 👨‍🏫 Teacher | ✍️ Writer
           </Typography>
         </div>
 
