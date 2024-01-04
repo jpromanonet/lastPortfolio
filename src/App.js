@@ -11,21 +11,27 @@ import projectsData from "./projects.json";
 import { useStyles, theme } from "./styles";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
-import "./App.css";
+import MenuItem from "@material-ui/core/MenuItem";
+import Select from "@material-ui/core/Select";
 
 function App() {
   const classes = useStyles();
   const [darkMode, setDarkMode] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("All");
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
+  };
+
+  const handleCategoryChange = (event) => {
+    setSelectedCategory(event.target.value);
   };
 
   const appliedTheme = createTheme({
     palette: {
       type: darkMode ? "dark" : "light",
       primary: {
-        main:darkMode ? "#ffffff" : theme.palette.primary.main // Maintain the primary color
+        main: darkMode ? "#ffffff" : theme.palette.primary.main,
       },
       background: {
         default: darkMode ? "#121212" : "#ffffff",
@@ -41,17 +47,9 @@ function App() {
     <div className="App">
       <ThemeProvider theme={appliedTheme}>
         <CssBaseline />
-        <br/>
-        <div className={classes.navBar}>
-          {/* Dark Mode Toggle Button */}
-          <Button color="primary" onClick={toggleDarkMode} className={classes.darkModeToggle}>
-            {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
-          </Button>
-        </div>
-
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-            Hi! I'm Juan and this is my portfolio
+          👋 Hi! I'm Juan and this is my portfolio
             <br />
             <br />
           </Typography>
@@ -60,28 +58,66 @@ function App() {
             className={classes.littleSpace}
             color="primary"
           >
-            🥷🏽 Ethical Hacker | 👨‍💻 Indie Hacker | 👨‍🏫 Teacher | ✍️ Writer
+            <div className={classes.navBar}>
+              {/* Dark Mode Toggle Button */}
+              <Button
+                color="primary"
+                onClick={toggleDarkMode}
+                className={classes.darkModeToggle}
+              >
+                {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+              </Button>
+
+              {/* Category Filter Dropdown */}
+              <Select
+                label="Category"
+                value={selectedCategory}
+                onChange={handleCategoryChange}
+                className={classes.categoryFilter}
+              >
+                <MenuItem value="All">All</MenuItem>
+                <MenuItem value="Web">Web</MenuItem>
+                <MenuItem value="Desktop">Desktop</MenuItem>
+                <MenuItem value="Hacking">Hacking</MenuItem>
+                <MenuItem value="Games">Games</MenuItem>
+                {/* Add more categories as needed */}
+              </Select>
+            </div>
           </Typography>
         </div>
 
         {/* Project Cards */}
-        <div className={`${classes.grid} ${classes.bigSpace}`} style={{ alignItems: "center" }}>
-          {projectsData.map((project, index) => (
-            <Card key={index} style={{ margin: "20px", width: "300px" }}>
-              <CardHeader title={project.title} />
-              <CardMedia>
-                <img src={require(`${project.imageSrc}`)} width="100%" height="200px" alt={project.title} />
-              </CardMedia>
-              <CardActions style={{ justifyContent: "center" }}>
-                <a href={project.liveUrl} target="_blank">
-                  <Button>Live</Button>
-                </a>
-                <a href={project.githubUrl} target="_blank">
-                  <Button>Github</Button>
-                </a>
-              </CardActions>
-            </Card>
-          ))}
+        <div
+          className={`${classes.grid} ${classes.bigSpace}`}
+          style={{ alignItems: "center" }}
+        >
+          {projectsData
+            .filter(
+              (project) =>
+                selectedCategory === "All" ||
+                project.category === selectedCategory
+            )
+            .map((project, index) => (
+              <Card key={index} style={{ margin: "20px", width: "300px" }}>
+                <CardHeader title={project.title} />
+                <CardMedia>
+                  <img
+                    src={require(`${project.imageSrc}`)}
+                    width="100%"
+                    height="200px"
+                    alt={project.title}
+                  />
+                </CardMedia>
+                <CardActions style={{ justifyContent: "center" }}>
+                  <a href={project.liveUrl} target="_blank">
+                    <Button>Live</Button>
+                  </a>
+                  <a href={project.githubUrl} target="_blank">
+                    <Button>Github</Button>
+                  </a>
+                </CardActions>
+              </Card>
+            ))}
         </div>
 
         {/* Footer */}
