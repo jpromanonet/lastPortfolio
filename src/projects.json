@@ -1,9 +1,9 @@
 [
   {
     "title": "Fibonacci Visualizations",
-    "imageSrc": "./assets/network_scanner_tkinter.png",
-    "liveUrl": "#",
-    "githubUrl": "https://github.com/jpromanonet/network_scanning_tool_py",
+    "imageSrc": "./assets/fibonacci_visuals.png",
+    "liveUrl": "https://fibonaccivisualization-jpromanonet.streamlit.app/",
+    "githubUrl": "https://github.com/jpromanonet/fibonacci_visualization",
     "category": "datascience"
   },
   {
