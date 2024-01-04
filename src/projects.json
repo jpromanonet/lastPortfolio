@@ -1,5 +1,12 @@
 [
   {
+    "title": "Fibonacci Visualizations",
+    "imageSrc": "./assets/network_scanner_tkinter.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/network_scanning_tool_py",
+    "category": "datascience"
+  },
+  {
     "title": "Network Scanner Tool",
     "imageSrc": "./assets/network_scanner_tkinter.png",
     "liveUrl": "#",

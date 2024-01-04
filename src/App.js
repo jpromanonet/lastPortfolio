@@ -80,6 +80,7 @@ function App() {
                 <MenuItem value="Desktop">Desktop</MenuItem>
                 <MenuItem value="Hacking">Hacking</MenuItem>
                 <MenuItem value="Games">Games</MenuItem>
+                <MenuItem value="datascience">Data Science</MenuItem>
                 {/* Add more categories as needed */}
               </Select>
             </div>
