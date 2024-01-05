@@ -43,13 +43,18 @@ function App() {
     },
   });
 
+  const filteredProjects =
+    selectedCategory === "All"
+      ? projectsData
+      : projectsData.filter((project) => project.category === selectedCategory);
+
   return (
     <div className="App">
       <ThemeProvider theme={appliedTheme}>
         <CssBaseline />
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-          👋 Hi! I'm Juan and this is my portfolio
+            👋 Hi! I'm Juan and this is my portfolio
             <br />
             <br />
           </Typography>
@@ -83,6 +88,11 @@ function App() {
                 <MenuItem value="datascience">Data Science</MenuItem>
                 {/* Add more categories as needed */}
               </Select>
+
+              {/* Counter */}
+              <Typography variant="subtitle1" color="primary">
+                {filteredProjects.length} {selectedCategory === "All" ? "Total projects" : "Projects in " + selectedCategory}
+              </Typography>
             </div>
           </Typography>
         </div>
@@ -92,33 +102,27 @@ function App() {
           className={`${classes.grid} ${classes.bigSpace}`}
           style={{ alignItems: "center" }}
         >
-          {projectsData
-            .filter(
-              (project) =>
-                selectedCategory === "All" ||
-                project.category === selectedCategory
-            )
-            .map((project, index) => (
-              <Card key={index} style={{ margin: "20px", width: "300px" }}>
-                <CardHeader title={project.title} />
-                <CardMedia>
-                  <img
-                    src={require(`${project.imageSrc}`)}
-                    width="100%"
-                    height="200px"
-                    alt={project.title}
-                  />
-                </CardMedia>
-                <CardActions style={{ justifyContent: "center" }}>
-                  <a href={project.liveUrl} target="_blank">
-                    <Button>Live</Button>
-                  </a>
-                  <a href={project.githubUrl} target="_blank">
-                    <Button>Github</Button>
-                  </a>
-                </CardActions>
-              </Card>
-            ))}
+          {filteredProjects.map((project, index) => (
+            <Card key={index} style={{ margin: "20px", width: "300px" }}>
+              <CardHeader title={project.title} />
+              <CardMedia>
+                <img
+                  src={require(`${project.imageSrc}`)}
+                  width="100%"
+                  height="200px"
+                  alt={project.title}
+                />
+              </CardMedia>
+              <CardActions style={{ justifyContent: "center" }}>
+                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                  <Button>Live</Button>
+                </a>
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                  <Button>Github</Button>
+                </a>
+              </CardActions>
+            </Card>
+          ))}
         </div>
 
         {/* Footer */}
