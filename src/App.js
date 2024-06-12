@@ -81,6 +81,7 @@ function App() {
                 className={classes.categoryFilter}
               >
                 <MenuItem value="All">All</MenuItem>
+                <MenuItem value="ututo">Ututo</MenuItem>
                 <MenuItem value="Web">Web</MenuItem>
                 <MenuItem value="Desktop">Desktop</MenuItem>
                 <MenuItem value="Hacking">Hacking</MenuItem>

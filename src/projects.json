@@ -1,5 +1,40 @@
 [
   {
+    "title": "Ututo Linux",
+    "imageSrc": "./assets/ututo.png",
+    "liveUrl": "https://ututo.org",
+    "githubUrl": "https://github.com/ututolinux",
+    "category": "ututo"
+  },
+  {
+    "title": "Yerba Tech",
+    "imageSrc": "./assets/yerba.png",
+    "liveUrl": "https://yerba.tech",
+    "githubUrl": "https://github.com/Yerba-Tech",
+    "category": "Web"
+  },
+  {
+    "title": "Salary taxes",
+    "imageSrc": "./assets/taxes_salary.png",
+    "liveUrl": "https://calcularsueldonetoarg.vercel.app/",
+    "githubUrl": "https://github.com/jpromanonet/calculadoraGananciasArg",
+    "category": "Web"
+  },
+  {
+    "title": "Vulnerability Scanner",
+    "imageSrc": "./assets/vul_scanner.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/simple_vulnerability_scanner",
+    "category": "Hacking"
+  },
+  {
+    "title": "Bouncing Ball Game",
+    "imageSrc": "./assets/bouncing_game.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/bouncing_ball_game",
+    "category": "Games"
+  },
+  {
     "title": "Fibonacci Visualizations",
     "imageSrc": "./assets/fibonacci_visuals.png",
     "liveUrl": "https://fibonaccivisualization-jpromanonet.streamlit.app/",
@@ -37,14 +72,14 @@
   {
     "title": "Free Coding Resources",
     "imageSrc": "./assets/recursos.png",
-    "liveUrl": "http://recursos.jpromano.net/",
+    "liveUrl": "https://recursosprogramacion.vercel.app/",
     "githubUrl": "https://github.com/jpromanonet/freeCodingResources",
     "category": "Web"
   },
   {
     "title": "Personal Website",
     "imageSrc": "./assets/website.png",
-    "liveUrl": "https://jpromano.net/",
+    "liveUrl": "https://jpromanonet.vercel.app/",
     "githubUrl": "https://github.com/jpromanonet/webSite2023",
     "category": "Web"
   },
