@@ -1,5 +1,19 @@
 [
   {
+    "title": "Ututo Blog",
+    "imageSrc": "./assets/ututoblog.png",
+    "liveUrl": "https://blogdeututo.vercel.app",
+    "githubUrl": "https://github.com/ututolinux/blog",
+    "category": "ututo"
+  },
+  {
+    "title": "Hack & Mate",
+    "imageSrc": "./assets/hackandmate.png",
+    "liveUrl": "http://hackandmate.com.ar",
+    "githubUrl": "https://github.com/jpromanonet/hackandmate",
+    "category": "Hacking"
+  },
+  {
     "title": "Ututo Linux",
     "imageSrc": "./assets/ututo.png",
     "liveUrl": "https://ututo.org",
