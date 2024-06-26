@@ -14,6 +14,13 @@
     "category": "Web"
   },
   {
+    "title": "Personal Blog",
+    "imageSrc": "./assets/personal_blog.png",
+    "liveUrl": "https://jpromanonet-blog.vercel.app",
+    "githubUrl": "https://github.com/jpromanonet/blog",
+    "category": "Web"
+  },
+  {
     "title": "Ututo Blog",
     "imageSrc": "./assets/ututoblog.png",
     "liveUrl": "https://blogdeututo.vercel.app",
