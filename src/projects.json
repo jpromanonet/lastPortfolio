@@ -16,7 +16,7 @@
   {
     "title": "Ututo Linux",
     "imageSrc": "./assets/ututo.png",
-    "liveUrl": "https://ututo.org",
+    "liveUrl": "https://ututo.vercel.app",
     "githubUrl": "https://github.com/ututolinux",
     "category": "ututo"
   },
