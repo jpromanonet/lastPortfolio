@@ -1,4 +1,11 @@
-[
+[ 
+  {
+    "title": "Ututo Linux",
+    "imageSrc": "./assets/ututo.png",
+    "liveUrl": "https://ututo.vercel.app",
+    "githubUrl": "https://github.com/ututolinux",
+    "category": "ututo"
+  },
   {
     "title": "Ututo Blog",
     "imageSrc": "./assets/ututoblog.png",
@@ -12,13 +19,6 @@
     "liveUrl": "http://hackandmate.com.ar",
     "githubUrl": "https://github.com/jpromanonet/hackandmate",
     "category": "Hacking"
-  },
-  {
-    "title": "Ututo Linux",
-    "imageSrc": "./assets/ututo.png",
-    "liveUrl": "https://ututo.vercel.app",
-    "githubUrl": "https://github.com/ututolinux",
-    "category": "ututo"
   },
   {
     "title": "Yerba Tech",
