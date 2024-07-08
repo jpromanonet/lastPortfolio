@@ -14,6 +14,13 @@
     "category": "Web"
   },
   {
+    "title": "Changelogs Tracker",
+    "imageSrc": "./assets/changelog_tracker.png",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/jpromanonet/changelogsTracker",
+    "category": "Web"
+  },
+  {
     "title": "Personal Blog",
     "imageSrc": "./assets/personal_blog.png",
     "liveUrl": "https://jpromanonet-blog.vercel.app",
